@@ -1,5 +1,5 @@
 body {
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 
@@ -84,4 +84,55 @@ button{
     display: none;
     font-size: 0.85em;
     color: red;
+}
+
+
+
+
+/* <!--------------------------------Footer --------------------------------> */
+
+
+.footer-container {
+    background-color: #343a40; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.footer-learn-aptitude a,
+.footer-companies a,
+.footer-resources a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.footer-learn-aptitude a:hover,
+.footer-companies a:hover,
+.footer-resources a:hover {
+    color: yellow;
+    font-size: 20px;
+}
+
+
+.footer-learn-title {
+    color: #ffffff; 
+    font-size: 25px; 
+    font-weight: bold; 
+    margin-bottom: 8px; 
+    display: block; 
+} 
+
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
 }
